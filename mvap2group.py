@@ -19,7 +19,6 @@ serialnum = "DeviceSerialNumber"
 # US-2 URL
 URL = "https://apigw-prod2.central.arubanetworks.com/configuration/v1/devices/move"
 moveap = {
-    "access_token": access_token,
     "group": groupname,
     "serials": [
         serialnum
