@@ -7,11 +7,11 @@ import requests, json
 # or use the pyarubacentral module
 #
 
-access_token = "srGPDPZ2DvDd4PzbxdlAYoYFdRtWB9uz"
+access_token = ""
 
 # Set the serial number for the device you want to move
 # serialnum = "DeviceSerialNumber"
-serialnum = "PHK3KPP0ZX"
+serialnum = "PH33KPP8ZX"
 services = "dm"
 
 def unassign_device(access_token, serialnum, services):
